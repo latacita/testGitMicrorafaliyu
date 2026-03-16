@@ -22,3 +22,15 @@
 (14)   git merge RamaB
 (15)   git add direccion.txt
        git commit -m "Arreglar conflicto"
+(16)   git branch RamaC
+(17)   git checkout RamaC
+(19)   git branch RamaD
+       git push -u origin RamaD
+       git checkout RamaD
+(21)   git add calificacion.txt
+       git commit -m "Añadir calificación"   
+(22)   git checkout RamaC
+(23)   git add bitacora.txt
+       git commit -m "Actualizar bitácora"
+       git add direccion.txt
+       git commit -m "Dirección"        
