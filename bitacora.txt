@@ -33,4 +33,10 @@
 (23)   git add bitacora.txt
        git commit -m "Actualizar bitácora"
        git add direccion.txt
-       git commit -m "Dirección"        
+       git commit -m "Dirección"   
+(24)   git checkout master
+(25)   fast-forward
+(26)   git merge RamaD
+(27)   git merge RamaC
+(28)   git tag "Conseguido"
+(30)   git add *, git commit -m "Paso 30", git push     
