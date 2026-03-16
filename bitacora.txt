@@ -9,3 +9,28 @@
 (1)    git clone https://github.com/latacita/testGitMicrorafaliyu.git .
 (2)    git add bitacora.txt
 (3)    git commit -m "Paso 3"
+(4)    git branch RamaA
+(5)    git branch RamaB
+(6)    git checkout RamaA
+(7)    git add direccion.txt
+(8)    git commit -m "Paso 8"
+(9)    git checkout RamaB
+(10)   git add direccion.txt
+(11)   git commit -m "Paso 11"
+(12)   git checkout master
+(13)   git merge RamaA
+(14)   git merge RamaB
+(15)   git add direccion.txt
+       git commit -m "Arreglar conflicto"
+(16)   git branch RamaC
+(17)   git checkout RamaC
+(19)   git branch RamaD
+       git push -u origin RamaD
+       git checkout RamaD
+(21)   git add calificacion.txt
+       git commit -m "Añadir calificación"   
+(22)   git checkout RamaC
+(23)   git add bitacora.txt
+       git commit -m "Actualizar bitácora"
+       git add direccion.txt
+       git commit -m "Dirección"        
